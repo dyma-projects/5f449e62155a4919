@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class Exercice2Component implements OnInit {
 
   constructor() { }
-
+  messageconsole() {
+    console.log("clic");
+  }
   ngOnInit() {
   }
 
